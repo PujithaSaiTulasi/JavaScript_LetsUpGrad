@@ -1,0 +1,96 @@
+<!doctype html>  
+<html>  
+  
+    <head>  
+        <title>Javascript Calculator</title>  
+        <!-- CSS Code -->  
+        <style>  
+            body {    
+    background-color:#fff;    
+    margin: 0px auto;    
+        
+    }    
+    .calbody{    
+     background: #097C9B;    
+     border: 1px solid #ff0;    
+     padding: 10px;    
+     margin-left: 450px;    
+     min-width: 27.4em;    
+     max-width: 27.4em;    
+         
+    }    
+    h1{    
+     text-align: center;    
+     font-size: 40px;    
+     color: #003652;    
+         
+    }    
+       
+    #lcd{    
+     text-align: right;    
+     width: 23em;    
+     height: 40px;    
+     font-size: 18px;    
+         
+    }    
+       
+    #lcdu{    
+     color: grey;    
+     text-align: right;    
+     width: 27.6em;    
+     height: 35px;    
+     font-size: 15px;    
+         
+    }    
+        
+    button{    
+     background-color: #fff;    
+     width: 80px;    
+     height: 60px;    
+     font-size: 20px;    
+     border: 1px solid #097C9B;   
+    }    
+        
+    button:hover{    
+      background-color: #509CA9;        
+     }    
+        
+    </style>  
+    </head>  
+  
+    <body>  
+        <h1>  
+            Javascript Calculator</h1>  
+        <div class="calbody">  
+            <form name="lcdform">  
+                <input id="lcdu" name="lcdsu" type="text" value="" />  
+                <input id="lcd" name="lcds" type="text" value="0" />  
+            </form>  
+            <div id="calbutton">  
+                <button id="num1" onclick="numone();">1</button>  
+                <button id="num2" onclick="numtwo();">2</button>  
+                <button id="num3" onclick="numthree();">3</button>  
+                <button id="operationplus" onclick="operationplus();">+</button>  
+                <button id="operationraistop" onclick="operationraistop();">^</button>  
+                <button id="num4" onclick="numfour();">4</button>  
+                <button id="num5" onclick="numfive();">5</button>  
+                <button id="num6" onclick="numsix();">6</button>  
+                <button id="operationmult" onclick="operationmult();">*</button>  
+                <button id="operationsqrt" onclick="sqrots();">Sqrt()</button>  
+                <button id="num7" onclick="numseven();">7</button>  
+                <button id="num8" onclick="numeight();">8</button>  
+                <button id="num9" onclick="numnine();">9</button>  
+                <button id="operationminus" onclick="operationminus();">-</button>  
+                <button id="clr" onclick="clr();">C</button>  
+                <button id="operationperc" onclick="operationperc();">%</button>  
+                <button id="num0" onclick="numzero();">0</button>  
+                <button id="num00" onclick="numdobuzero();">00</button>  
+                <button id="operationdivid" onclick="operationdivid();">/</button>  
+                <button id="sumbit" onclick="equalsto();">=</button>  
+            </div>  
+        </div>  
+        <!-- Javascript code -->  
+        <script src="scripts.js/four.js"></script>  
+    </body>  
+  
+</html> 
